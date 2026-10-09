@@ -1,0 +1,29 @@
+{
+  "name": "desi-music-bot",
+  "version": "1.0.0",
+  "description": "An open-source Discord music bot focused on a simple Desi music listening experience.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --check index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "discord",
+    "music-bot",
+    "discord-bot",
+    "desi-music",
+    "open-source"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/voice": "^1.8.0",
+    "discord.js": "^14.15.2",
+    "distube": "^5.0.2",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "yt-dlp-exec": "^3.0.3"
+  }
+}
